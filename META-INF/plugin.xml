@@ -1,0 +1,32 @@
+<idea-plugin>
+  <id>neokai</id>
+  <name>Neokai Theme</name>
+  <vendor url="https://github.com/tautastic/neokai">tautastic</vendor>
+  <version>1.10</version>
+
+  <depends>com.intellij.modules.lang</depends>
+  <idea-version since-build="191.0"/>
+
+  <description>
+  <![CDATA[
+  Just a copy of the 1.10 version of the `Monokai Pro Theme` JetBrains plugin.
+  <br/><br/>
+  ]]>
+  </description>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="4e8a0141-240c-4f14-9bde-57a52ee98a97" path="/classic.theme.json"/>
+    <themeProvider id="ef356aaa-17a5-4c79-a08b-52b9970b4786" path="/machine.theme.json"/>
+    <themeProvider id="b54375b6-c673-4018-99f5-ff9993c31d01" path="/octagon.theme.json"/>
+    <themeProvider id="12c5499b-74ca-4826-b414-392b3d91f4b4" path="/ristretto.theme.json"/>
+    <themeProvider id="5a70a239-176b-40ff-884c-d2184f88a20f" path="/spectrum.theme.json"/>
+    <themeProvider id="98cee70d-a1ee-4974-b16d-ed9d303656ee" path="/default.theme.json"/>
+
+    <bundledColorScheme path="/schemes/classic-no-italics"/>
+    <bundledColorScheme path="/schemes/machine-no-italics"/>
+    <bundledColorScheme path="/schemes/octagon-no-italics"/>
+    <bundledColorScheme path="/schemes/ristretto-no-italics"/>
+    <bundledColorScheme path="/schemes/spectrum-no-italics"/>
+    <bundledColorScheme path="/schemes/default-no-italics"/>
+  </extensions>
+</idea-plugin>
